@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/drawable/bg_audio.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/drawable/bg_msg.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/drawable/bg_sender_msg.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/drawable/ic_baseline_audiotrack_24.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/drawable/ic_baseline_check_circle_outline_24.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/drawable/ic_baseline_save_alt_24.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/layout/activity_main2.xml" value="0.22012257405515834" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/layout/audio_layout.xml" value="0.4" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/layout/fragment_first_person.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/layout/fragment_second_person.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/layout/image_recevier.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/layout/image_sender.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/layout/loading_dialog.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/layout/maximize_image.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/layout/messages.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/layout/messages_layout.xml" value="0.264" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/layout/sende_bg.xml" value="0.264" />
+        <entry key="..\:/Users/HP/Firebase_chat/app/src/main/res/menu/options.xml" value="0.22447916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

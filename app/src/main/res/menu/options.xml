@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+<item android:id="@+id/Clear_chat"
+    android:title="Clear chat"
+    android:icon="@drawable/ic_baseline_delete_forever_24"
+    />
+
+<item android:title="Settings"
+
+    android:id="@+id/fav"/>
+
+    <item android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:id="@+id/Profile"
+        />
+
+
+
+</menu>

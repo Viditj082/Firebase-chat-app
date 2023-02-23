@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/scrollView2"
+    android:background="@drawable/background"
+    android:fillViewport="true"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Person 2"
+            android:textColor="@color/white"
+            android:textSize="26dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginBottom="5dp"
+            android:id="@+id/recyclerView2"
+            android:layout_width="match_parent"
+            android:layout_height="540dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recyclerView2"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="8"
+                android:elevation="6dp"
+                app:cardBackgroundColor="#696969"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="6dp">
+
+                <EditText
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/white"
+                    android:id="@+id/sendtView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9"
+                    android:hint="Enter message:"
+                    android:textColorHint="#25d366" />
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/send2"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.9"
+                android:src="@drawable/ic_baseline_send_24" />
+            <ImageView
+                android:id="@+id/insert_image2"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_image_24"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:id="@+id/send_audio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_audiotrack_24"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
